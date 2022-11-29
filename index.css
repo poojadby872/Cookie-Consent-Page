@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    
+
+}
+body{
+    max-width: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding:18px;
+    background-color: rgb(193, 225, 212);
+}
+header{
+    padding: 19px;
+    color:rgb(149, 152, 152);
+
+    font-size: 22px;
+    margin-bottom: 15px;
+
+
+
+}
+.navbar{
+    box-shadow: 2px 2px 3px 5px rgb(164, 206, 192);
+    text-decoration: dotted;
+    padding: 10px;
+
+}
+
+
+h2{
+    color:red;
+    text-decoration: underline;
+}
+
+.Main{
+    background-color: rgb(195, 231, 219);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 3px 7px 15px 3px rgb(164, 206, 192);
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(225, 241, 235);
+    box-shadow: 5px 3px 5px 3px rgb(183, 223, 209);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+.subSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    padding: 5px;
+}
+.para{
+    margin:0;
+}
+article{
+    margin: 10px 0px;
+
+}
+
+#close{
+    width:35px;
+    padding: 0px;
+    display: flex;
+    justify-self: flex-end;
+    align-self: flex-end;
+    text-align: right;
+    
+
+}
+.clsBtn:hover{
+    color:red;
+    cursor: pointer;
+
+}
+.container{
+    max-width: 400px;
+    min-width: 400px;
+    display: none;
+    position: fixed;
+    top:160px;
+
+   
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    background-color: rgb(32, 37, 37);
+    color:whitesmoke;
+    padding: 30px;
+    border-radius:10px;
+
+
+}
+.form1{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:400px;
+    height:333px;
+    margin-top: 0px;
+}
+p{
+    font-weight: bold;
+}
+.heading{
+    border:none;
+}
+h3{
+    text-align: center;
+    background-color: rgb(40, 44, 44);
+    color:white;
+    border:1px solid black;
+    padding:10px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+.input{
+     display: flex;
+     justify-content: center;
+     font-size: 16px;
+     font-weight: bold;
+
+}
+input{
+    margin-left: 15px;
+    padding:12px 18px;
+    border:1px solid rgb(119, 99, 99);
+    border-radius: 5px;
+    background-color: white;
+
+
+}
+input:hover{
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 5px 0px whitesmoke ;
+
+}
+.btn{
+    padding:8px 16px;
+    margin: 0 auto;
+    font-weight: bold;
+    background-color:white;
+    color:black;
+    text-align: center;
+    border:2px solid rgb(24, 18, 18);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0px transparent ;
+
+    
+
+}
+.btn:hover,
+ .btn:focus{
+    background-color: rgb(8, 65, 65);
+    color:white;
+}
+btn:active{
+    background-color: black;
+    color:white;
+}
+#modalBtn{
+    display: flex;
+
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.image{
+    width:200px;
+    height:200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 480px){
+    main.subSection{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    img.monkey{
+        padding: 5px;
+        width: 400px;
+        height: 300px;
+        object-fit: contain;
+        margin: 0 auto;
+    }
+    
+}
+
