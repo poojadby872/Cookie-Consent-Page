@@ -25,8 +25,8 @@ function submitBtn(e){
     modal.innerHTML = `
     <div class="form1">
        <h3 class="heading">We ❤️ Your Data</h3>
-       <p>Wait While we are Taking Care of Your Data 😉 </p>
-       <img src="./images/loading.svg"/>
+       <p margin-bottom="20px">Wait While we are Taking Care of Your Data 😉 </p>
+       <img width="67%" src="./images/loading.svg"/>
     </div>
     `
     setTimeout(showUp,3000)
