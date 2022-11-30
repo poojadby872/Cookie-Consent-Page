@@ -213,6 +213,9 @@ btn:active{
     display: flex;
     
 }
+.load{
+    width: 67%;
+}
 
 button{
     padding: 10px 18px;
@@ -225,20 +228,38 @@ button{
 
 }
 
-@media screen and (max-width: 480px){
-    main.subSection{
+@media (min-width: 480px) and (max-width:640px){
+    body{
         display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      
+        
+        
     }
+    .subSection{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
     img.monkey{
         padding: 5px;
         width: 400px;
         height: 300px;
         object-fit: contain;
         margin: 0 auto;
+    }
+    .container{
+        max-width: 300px;
+        min-width: 200px;
+        
+    }
+    .form1{
+        width:250px;
+        padding:10px;
+    }
+    .load{
+        width:100%;
+        margin-top: 20px;
     }
     
 }

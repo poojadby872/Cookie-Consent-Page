@@ -26,7 +26,7 @@ function submitBtn(e){
     <div class="form1">
        <h3 class="heading">We ❤️ Your Data</h3>
        <p margin-bottom="20px">Wait While we are Taking Care of Your Data 😉 </p>
-       <img width="67%" src="./images/loading.svg"/>
+       <img class="load" src="./images/loading.svg"/>
     </div>
     `
     setTimeout(showUp,3000)
