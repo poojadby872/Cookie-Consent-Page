@@ -22,26 +22,27 @@ function changeBtn(){
 modal.addEventListener("submit",submitBtn)
 function submitBtn(e){
     e.preventDefault()
-    modal.innerHTML = `
+    const HTML =   `
     <div class="form1">
        <h3 class="heading">We ❤️ Your Data</h3>
        <p margin-bottom="20px">Wait While we are Taking Care of Your Data 😉 </p>
        <img class="load" src="./images/loading.svg"/>
     </div>
     `
+    modal.innerHTML = HTML
     setTimeout(showUp,3000)
     function showUp(){
-       
-        modal.innerHTML=`
-        
+        const HTML2 =   `
         <div class="clsBtn" id="close">X</div>
-        <div class="form1">
-        <p>You are Doomed Now 🤣🤣</p>
+          <div class="form1">
+            <p>You are Doomed Now 🤣🤣</p>
         
-        <img class="image" src="./images/pirate.gif"/>
-        <p>Thank You for Trusting 😉</p>
-        </div>
+             <img class="image" src="./images/pirate.gif"/>
+             <p>Thank You for Trusting 😉</p>
+           </div>
         `
+        modal.innerHTML = HTML2
+
     const closeBtn = document.getElementById("close")
     closeBtn.addEventListener("click",closeModal)
     function closeModal(){
