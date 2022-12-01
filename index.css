@@ -97,9 +97,13 @@ article{
     
 
 }
+.clsBtn{
+    transition: font-size 0.5s;
+}
 .clsBtn:hover{
     color:red;
     cursor: pointer;
+    font-size: 17px;
 
 }
 .container{
@@ -225,6 +229,22 @@ button{
     border: 1px solid goldenrod;
     border-radius: 3px;
     
+
+}
+.clsBtn .tooltip{
+    visibility: hidden;
+    display: inline-flex;
+    position: fixed;
+    top:14px;
+
+
+}
+.clsBtn:hover .tooltip{
+    visibility: visible;
+    position: relative;
+    color:white;
+    font-size: 8px;
+    font-weight:bold;
 
 }
 
