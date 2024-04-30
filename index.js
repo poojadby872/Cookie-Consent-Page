@@ -122,7 +122,7 @@ function originalSlide(){
                 <h2><em>The funny consent cookies form</em></h2>
     
                 hdchdc bcdhdh difdh djfc jkfdbkj jnfjdn kjcnfdjc bfbif hfiue fhfiuefh bfjdbcfbfc <br>
-                dchcdhci jdsnjdn bdchd bcfdvjc dhbcdbci dbjjvbfjv hdbc dbcdsjvc dcbcdbc jnndkj<br>
+                dchcdhci jdsnjdn bdchd bcfdvjc dhcdbci dbjjvbfjv hdbc dbcdsjvc dcbcdbc jnndkj<br>
                 dchdsbhc bcbdb cdsbc bdjb cjsdbcjds ckjds bjcdsj dbhcbd hvcbfd djcdbj cjdscnjkd
             </article></div>
         </div>
@@ -154,9 +154,9 @@ function originalSlide(){
                 <h2><em>The funny consent cookies form</em></h2>
                 <img width="200px" height="180px" class="monkey" src="https://tse4.mm.bing.net/th?id=OIP.AWX__NfoS2ngboe2ClIUTgHaHY&pid=Api&P=0"/>
     
-                hdchdc bcdhdh difdh djfcj kfdbkj jnfjdn kjcnfdjc bfbif hfi fhfiuefh bfjdb cfbfc <br>
+                hdchdc bcdhdh difdh djfcj kfdbkj jnfjdn kjcnfdjc bfbif hfi fh fiuefh bfjdb cfbfc <br>
                 dchcdhc ijdsnjdn bdchdb cfdvjc dhbcdb cidbj bfjv bfjv bcdsjvc dcbcdb cjnndkj<br>
-                dbschds cbbcdsbc bdjbc jsdbcjd sckjdsb jcdsj dbhvcbfd djcdbjc jdscnjkd
+                dbschds cbbcdsbc bdjbc jsdbcjd sckjdsb jcdsj dbh vcbfd djcdbjc jdscnjkd
             </article>
         </div>
         </div>
